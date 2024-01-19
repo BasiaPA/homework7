@@ -20,6 +20,7 @@
       img {
         max-width: 100%;
         display: block;
+        height: auto;
       }
     </style>
   </head>
@@ -30,6 +31,73 @@
           <a class="logo link" href="./index.html"
             >Web<span class="logo-navy">Studio</span></a
           >
+          <ul class="list nav-pages">
+            <li>
+              <a class="list-item link link-active" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="list-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="list-item link" href="">Contacts</a></li>
+          </ul>
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="32"
+              height="22"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </nav>
+        <address>
+          <ul class="list settings-address">
+            <li>
+              <a class="address-list link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="address-list link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <div class="menu-mobile js-menu-container">
+      <div class="button-container">
+        <button class="js-close-menu">
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu-container">
+        <nav class="settings">
           <ul class="list nav-pages">
             <li>
               <a class="list-item link link-active" href="./index.html"
@@ -57,7 +125,43 @@
           </ul>
         </address>
       </div>
-    </header>
+      <div class="mobile-social-position">
+        <ul class="mobile-footer-wheel list">
+          <li class="wheel">
+            <a class="back-icon-footer" href="https://www.instagram.com">
+              <svg class="dot-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="wheel">
+            <a class="back-icon-footer" href="https://www.twitter.com">
+              <svg class="dot-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="wheel">
+            <a class="back-icon-footer" href="https://www.facebook.com">
+              <svg class="dot-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="wheel">
+            <a class="back-icon-footer" href="https://www.linkedin.com">
+              <svg class="dot-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <main>
       <section class="section-one">
         <div class="container">
@@ -134,6 +238,7 @@
           <ul class="list pictures-set">
             <li class="picture">
               <img
+                srcset="./images/photo1@2.jpg 2x"
                 src="./images/photo1.jpg"
                 alt="monitor"
                 width="360"
@@ -142,6 +247,7 @@
             </li>
             <li class="picture">
               <img
+                srcset="./images/photo2@2.jpg 2x"
                 src="./images/photo2.jpg"
                 alt="phones"
                 width="360"
@@ -150,6 +256,7 @@
             </li>
             <li class="picture">
               <img
+                srcset="./images/photo3@2.jpg 2x"
                 src="./images/photo3.jpg"
                 alt="monitor and phone"
                 width="360"
@@ -165,6 +272,7 @@
           <ul class="list team-position">
             <li class="team-list">
               <img
+                srcset="./images/image1@2.jpg 2x"
                 src="./images/image1.jpg"
                 alt="a man in a blue shirt with short stubble"
                 width="264"
@@ -211,6 +319,7 @@
             </li>
             <li class="team-list">
               <img
+                srcset="./images/image2@2.jpg 2x"
                 src="./images/image2.jpg"
                 alt="a man in a blue shirt with a smile on his face"
                 width="264"
@@ -257,6 +366,7 @@
             </li>
             <li class="team-list">
               <img
+                srcset="./images/image3@2.jpg 2x"
                 src="./images/image3.jpg"
                 alt="a young woman with long hair and a pink sweater"
                 width="264"
@@ -303,6 +413,7 @@
             </li>
             <li class="team-list">
               <img
+                srcset="./images/image4@2.jpg 2x"
                 src="./images/image4.jpg"
                 alt="a young man in a light sweater and with a smile on his face"
                 width="264"
@@ -560,6 +671,13 @@
         </form>
       </div>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
