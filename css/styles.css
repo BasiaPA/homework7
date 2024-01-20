@@ -1119,11 +1119,21 @@ html {
   }
 
   .footer {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 108px;
+  }
+  .footer-position {
+    row-gap: 24px;
+    column-gap: 72px;
+    margin-right: 24px;
   }
   .sub-class {
     margin-top: 72px;
+    margin-left: 0;
+  }
+  .social-position {
+    margin-left: 0;
   }
 }
 
