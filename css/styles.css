@@ -1084,11 +1084,15 @@ html {
     display: none;
   }
   .articles-list {
-    display: flex;
     flex-wrap: wrap;
     gap: 0;
     row-gap: 72px;
     column-gap: 24px;
+  }
+
+  .lorem {
+    width: calc((100%-72px) / 2);
+    width: 356px;
   }
 
   .articles-list .lorem .four-articles {
@@ -1100,6 +1104,26 @@ html {
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
+  }
+  .team-position {
+    flex-wrap: wrap;
+    gap: 0;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .client-position {
+    flex-wrap: wrap;
+    gap: 0;
+    row-gap: 24px;
+    column-gap: 72px;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sub-class {
+    margin-top: 72px;
   }
 }
 
