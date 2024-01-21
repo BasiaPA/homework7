@@ -975,9 +975,8 @@ html {
   .mobile-social-position .mobile-footer-wheel.list {
     width: 328px;
     height: 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 56px;
   }
   .pink-box {
     display: none;
@@ -1067,7 +1066,6 @@ html {
     margin-bottom: 16px;
   }
   .footer-input {
-    width: 398px;
     margin: 0 auto;
   }
   .footer-btn {
@@ -1076,6 +1074,9 @@ html {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+  }
+  .modal {
+    width: 320px;
   }
 }
 
